@@ -41,3 +41,9 @@ a.btn:hover {background-color:  rgb(54, 54, 54);}
 .italic {font-style: italic;}
 .highlight {font-weight: bolder; font-style: italic; color: #c03d3e;}
 footer {background-color: #efeff3; width: 100%; margin-top: 32px; padding-top: 16px; padding-bottom: 16px; text-align: center;}
+.margin-left {
+  margin-left: 10px;
+}
+.paper-link {
+  margin-right: 30px; /* Adjust this value to increase the distance between the links */
+}
