@@ -1,7 +1,7 @@
 body {background-color: #fdfdfd; color: rgb(54, 54, 54); margin: 0; font-size: 1em;}
 h1, h2, h3, h4, h5 {text-align: center;}
 h1 {margin-bottom: 24px; font-size: 2.2em; font-weight: normal;}
-h2 {margin-top: 48px; font-weight: bold !important;}
+h2 {margin-top: 48px; font-weight: bold !important;font-size: 24px;}
 h1, h2, h3, h4, h5, a, p, span, body {font-weight: normal; font-family: "Google Sans", sans-serif;}
 .header {background-color: #fdfdfd; width: 100%; padding-top: 48px; padding-bottom: 8px;}
 .links {width: 100%; margin: auto; text-align: center; padding-top: 8px;}
@@ -10,12 +10,12 @@ a, h2 {color: #c03d3e; text-decoration: none;}
 a:hover {color: #ce5252;}
 .nobreak {white-space: nowrap;}
 .hr {width: 100%; height: 1px; margin: 48px 0; background-color: #d6dbdf;}
-p {line-height: 1.4em; text-align: justify;}
-.abstract {max-width: 600px; margin: auto;}
+p {line-height: 1.4em; text-align: justify;font-size: 18px;}
+.abstract {max-width: 900px; margin: auto;}
 .math {font-family: "Computer Modern Sans", sans-serif; font-style: italic;}
 sub, sup {line-height: 0;}
 .figure {width: 100%; min-height: 120px; margin: 36px 0; background-repeat: no-repeat; background-position: center; background-size: contain;}
-.figure-caption {margin: auto; max-width: 95%; margin-top: 24px; margin-bottom: 24px;}
+.figure-caption {margin: auto; max-width: 55%; margin-top: 24px; margin-bottom: 24px;}
 .youtube-container {background-color: #000; margin-top: 32px;}
 .youtube {display: block; margin: auto; width: 960px; padding-top: 20px; padding-bottom: 20px;}
 .content-video {width: 100%; margin: 0; text-align: center;}
