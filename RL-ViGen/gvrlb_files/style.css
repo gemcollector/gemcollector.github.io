@@ -47,3 +47,4 @@ footer {background-color: #efeff3; width: 100%; margin-top: 32px; padding-top: 1
 .paper-link {
   margin-right: 30px; /* Adjust this value to increase the distance between the links */
 }
+.content1 {max-width: 960px; margin: auto; margin-top: 18px; margin-bottom: 64px;}
