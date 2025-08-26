@@ -1085,12 +1085,12 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
     <p>
         <b>Q:</b> Why does the robot sway left and right during navigation?
         <br>
-        <b>A:</b> We directly used the outputs from ViNT without applying any smoothing. We found that using the raw action outputs yields better performance when handling sharp turns, intersections, or obstacle avoidance. Therefore, we did not apply additional processing.
+        <b>A:</b> The actions output by ViNT tend to fluctuate laterally. We directly used the outputs from ViNT without applying any smoothing. We found that using the raw action outputs yields better performance when handling sharp turns, intersections, or obstacle avoidance. Therefore, we did not apply additional processing.
     </p>
     <p>
         <b>Q:</b> How does HERMES determine the final target position?
         <br>
-        <b>A:</b> We first use a camera to capture the target position. Then, adopting the same navigation settings as ViNT, we infer actions from the RGB images in the recorded trajectory.
+        <b>A:</b> We first employ the depth camera to capture the target pose. Subsequently, following the same navigation settings as ViNT, we infer actions from the RGB images in the recorded trajectory. Once navigation completes, the robot's pose is refined to the recorded target pose via closed-loop PnP.
     </p>
     <p>
         <b>Q:</b> Does HERMES require camera calibration?
