@@ -27,6 +27,7 @@ p {line-height: 1.5em;}
 .clearfix {content: ""; clear: both; display: table;}
 .publication {margin-bottom: 32px; padding-left: 8px;}
 .publication.highlight {background-color: #fff8df; width: 100%; padding-top: 8px; padding-bottom: 8px; border-radius: 4px;}
+.publication.pivot-highlight {border: 2px solid #f09228; box-sizing: border-box; padding-left: 8px; padding-right: 8px; border-radius: 8px; box-shadow: 0 2px 8px rgba(240, 146, 40, 0.18);}
 .press {width: 100px; height: 80px; border: 1px solid #def; margin-right: 12px; background-size: cover;}  
 .img-contain {background-size: contain !important;}
 .footer {background-color: #345; width: 100%}
